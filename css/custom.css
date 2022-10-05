@@ -1,0 +1,563 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&family=Montserrat:ital,wght@0,700;0,800;1,800&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@600;800&family=Prompt:wght@500&family=Roboto:wght@300;400;500&display=swap");
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.fakenav {
+  padding: 10px 0;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  color: white;
+  transition: 0.2s all linear;
+  background-color: rgb(221, 61, 60);
+  z-index: 100;
+}
+
+.top {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.nav {
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  color: white;
+  z-index: 100;
+  width: 100%;
+  background-color: black;
+}
+
+.navbar_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+#top_inner4 a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar_left a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar_right a {
+  margin-right: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 0;
+}
+
+.top_inner {
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+}
+
+#top_inner1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+#top_inner2 {
+  font-size: 75px;
+  margin-bottom: 5px;
+}
+
+#top_inner3 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+#skills_a {
+  text-decoration: none;
+}
+
+#top_inner4 {
+  font-size: 25px;
+  padding: 15px 20px;
+  background-color: rgb(221, 61, 60);
+  color: white;
+  border: none;
+}
+
+.top_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  color: black;
+}
+
+.top_right img {
+  height: 100%;
+  width: 100%;
+}
+
+.top_innerspan {
+  color: rgb(221, 61, 60);
+  transition: 1s all linear;
+}
+
+.about,
+.skill,
+.education,
+.projects,
+.contacts,
+.footer {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.edu h1,
+.contact h1,
+.aboutus h1 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.skills h1,
+.project h1 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.aboutus,
+.skills,
+.edu,
+.project,
+.contact,
+.foot {
+  margin: 0 10vw;
+}
+
+.skills_right {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 100%;
+  flex: 50%;
+  padding-top: 10px;
+}
+
+.edu_main,
+.project_main,
+.contact_main {
+  margin-top: 50px;
+  width: 100%;
+  text-align: start;
+}
+
+.skills_content {
+  color: white;
+  margin-top: 50px;
+}
+
+.aboutus_content,
+.skills_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutus_right h2,
+.skills_left h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.skills_left a {
+  color: white;
+}
+
+.aboutus_right p,
+.skills_left p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+.aboutus_right a {
+  color: white;
+  text-decoration: none;
+}
+
+.aboutus_right button,
+.skills button {
+  background-color: rgb(221, 61, 60);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  width: fit-content;
+  font-size: 20px;
+}
+
+.aboutus_right {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 150px 30px 30px;
+  width: 100%;
+}
+
+.skills_left {
+  text-align: left;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  flex: 50%;
+}
+
+.aboutus_left {
+  margin-right: 40px;
+}
+
+.aboutus_left img {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  border: solid black 1px;
+}
+
+.skill,
+.projects {
+  /* background-color: #2e3544; */
+  background-color: black;
+
+  color: white;
+}
+
+.container {
+  width: 100%;
+  /* Full width */
+  background-color: rgb(255, 255, 255);
+  /* Grey background */
+  margin-bottom: 20px;
+}
+
+.skills_right p {
+  margin-bottom: 5px;
+}
+
+.skillss {
+  text-align: right;
+  color: white;
+  height: 5px;
+}
+
+.html {
+  width: 90%;
+  background-color: #04aa6d;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+
+.js {
+  width: 60%;
+  background-color: #f44336;
+}
+
+.php {
+  width: 50%;
+  background-color: #15ff00;
+}
+
+.word {
+  width: 65%;
+  background-color: #cc00ff;
+}
+
+.java {
+  width: 70%;
+  background-color: #ff0000;
+}
+
+.accordion {
+  background-color: rgb(216, 209, 209);
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.3s all linear;
+}
+
+.active,
+.accordion:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.panel li {
+  margin: 5px 0;
+}
+
+.panel {
+  padding: 15px;
+  display: none;
+  background-color: rgb(248, 246, 246);
+  overflow: hidden;
+  text-align: start;
+  /* margin-bottom: 10px; */
+}
+
+.project_main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+}
+
+.projectdone img {
+  height: 300px;
+  width: 100%;
+}
+
+.projectdone p {
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.projectdone {
+  position: relative;
+  height: fit-content;
+  width: 350px;
+  margin: 10px;
+  border: 1px rgb(238, 231, 231) solid;
+}
+
+.blocks img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  margin-top: 30px;
+}
+
+.bl {
+  margin-left: 20px;
+}
+
+.footer {
+  padding: 30px 0 0 0;
+  /* background-color: #2e3544; */
+  background-color: black;
+}
+
+.foot_second {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.foot_first {
+  text-align: center;
+}
+
+.foot_first a {
+  margin-right: 20px;
+}
+
+.foot_first img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  padding: 10px;
+}
+
+.navbar_hidden {
+  display: none;
+}
+
+.navbar_hidden img {
+  height: 20px;
+  width: 30px;
+  color: white;
+  background-color: white;
+}
+
+@media (max-width: 1300px) {
+
+  .aboutus,
+  .project {
+    margin: 1vw;
+  }
+
+  .skills,
+  .edu,
+  .foot,
+  .contact {
+    margin: 5vw;
+  }
+}
+
+@media (max-width: 1199px) {
+  .top_right {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .aboutus_right {
+    padding: 30px;
+  }
+
+  .aboutus_left img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .projectdone {
+    width: 300px;
+  }
+
+  .aboutus_left {
+    margin-right: 0;
+  }
+
+  .navbar_hidden {
+    display: block;
+  }
+
+  .navbar_right a {
+    margin: 10px;
+  }
+
+  .navbar_right {
+    padding: 15px 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    /* box-shadow: 1px 1px 1px white; */
+    border-bottom: 1px white solid;
+  }
+
+  .edu h1,
+  .contact h1,
+  .aboutus h1 {
+    font-size: 30px;
+  }
+
+  .skills h1,
+  .project h1 {
+    font-size: 30px;
+  }
+
+  .about,
+  .skill,
+  .education,
+  .projects,
+  .contacts,
+  .footer {
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .aboutus {
+    margin: 0;
+  }
+
+  .aboutus_content,
+  .skills_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .skills_left {
+    padding: 0;
+  }
+
+  .projectdone img {
+    height: 200px;
+  }
+
+  /* .projectdone {
+      width: fit-content;
+    } */
+  .foot_first img {
+    height: 30px;
+    width: 30px;
+    border: 1px white solid;
+    padding: 0;
+  }
+
+  .top_inner {
+    padding-left: 10px;
+  }
+
+  #top_inner1 {
+    font-size: 25px;
+  }
+
+  #top_inner2 {
+    font-size: 50px;
+  }
+
+  #top_inner3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .aboutus {
+    margin: 0;
+  }
+
+  .top_inner {
+    top: 30%;
+    transform: translate(-10%, -30%);
+  }
+}
+
+@media (max-width: 350px) {
+  .aboutus_left img {
+    width: 100%;
+  }
+}
