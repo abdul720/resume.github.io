@@ -134,14 +134,29 @@ body {
   color: black;
   margin-bottom: 10px;
 }
-
+.exp h1 {
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+}
 .skills h1,
 .project h1 {
   font-size: 40px;
   color: white;
   margin-bottom: 10px;
 }
+.cotainer1 {
+  background-color: antiquewhite;
+  width: 80%;
+  margin: 0 auto;
+  padding: 18px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  line-height: 2.0em;
 
+}
 .aboutus,
 .skills,
 .edu,
