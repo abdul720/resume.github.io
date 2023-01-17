@@ -19,9 +19,9 @@ function myFunction() {
     }
 }
 let myarr = [
-    "Web Developer",
-    "Frontend Developer",
-    "Full stack Developer",
+    "Web Designer",
+    "UI Developer",
+    "Project co-ordinator",
 ];
 let gt = document.getElementsByClassName("top_innerspan")[0];
 let gt2 = document.getElementsByClassName("top_innerspan")[1];
